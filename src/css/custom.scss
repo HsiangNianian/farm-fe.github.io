@@ -179,18 +179,14 @@ div[class^="announcementBar_"] {
   font-weight: bold;
   color: var(--c-white);
   height: var(--ifm-announcementBar-height);
-}
 
-@media (max-width: 768px) {
-  div[class^="announcementBar_"] {
+  @media (max-width: 768px) {
     height: calc(var(--ifm-announcementBar-height) + 12px);
   }
+}
 
-  .navbar__items .documate-button {
-    display: none !important;
-  }
-
-  .navbar__link {
+.navbar__items .documate-button {
+  @media (max-width: 768px) {
     display: none !important;
   }
 }
@@ -204,6 +200,15 @@ footer[class="footer"] {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.navbar__link {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    display: none !important;
+  }
 }
 
 .code-block-highlight-line {
@@ -255,7 +260,7 @@ a {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-@media (min-width: 1140px) {
+@media screen and (min-width: 1140px) {
   .navbar--fixed-top {
     backdrop-filter: blur(8px); /* Apply the blur effect */
     -webkit-backdrop-filter: blur(8px); /* Safari support */
