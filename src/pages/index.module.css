@@ -18,12 +18,6 @@
   color: transparent;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;
@@ -149,7 +143,7 @@
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
   border-radius: 10px;
-  animation: glowing 100s linear infinite;
+  animation: glowing2 100s linear infinite;
 }
 
 .farmButton2:after {
@@ -164,7 +158,7 @@
   border-radius: 10px;
 }
 
-@keyframes glowing {
+@keyframes glowing2 {
   0% {
     background-position: 0 0;
   }
@@ -180,4 +174,10 @@
   background: linear-gradient(to bottom right, black, gray 40%, white);
   -webkit-background-clip: text;
   color: transparent;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
 }
