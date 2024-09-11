@@ -27,6 +27,7 @@
     "@crowdin/crowdin-api-client": "^1.23.4",
     "@docusaurus/core": "3.4.0",
     "@docusaurus/plugin-ideal-image": "^3.4.0",
+    "postcss-preset-env": "^10.0.3",
     "@docusaurus/preset-classic": "3.4.0",
     "@docusaurus/theme-common": "^3.4.0",
     "@docusaurus/theme-search-algolia": "^3.4.0",
