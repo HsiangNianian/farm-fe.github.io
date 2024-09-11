@@ -255,7 +255,7 @@ a {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-@media screen and (min-width: 1140px) {
+@media (min-width: 1140px) {
   .navbar--fixed-top {
     backdrop-filter: blur(8px); /* Apply the blur effect */
     -webkit-backdrop-filter: blur(8px); /* Safari support */
