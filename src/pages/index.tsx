@@ -105,7 +105,7 @@ const HomeBaseContent = () => {
   const mainContent = React.useMemo(() => {
     return (
       <main className="mb-20 my-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8max-w-6xl">
-        <AnimatedGradientStarWithGithub />
+{/*         <AnimatedGradientStarWithGithub /> */}
         <HomepageHeader />
         <BentoGridCard />
       </main>
