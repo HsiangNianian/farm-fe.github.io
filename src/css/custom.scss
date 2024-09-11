@@ -179,14 +179,18 @@ div[class^="announcementBar_"] {
   font-weight: bold;
   color: var(--c-white);
   height: var(--ifm-announcementBar-height);
-
-  @media (max-width: 768px) {
-    height: calc(var(--ifm-announcementBar-height) + 12px);
-  }
 }
 
-.navbar__items .documate-button {
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  div[class^="announcementBar_"] {
+    height: calc(var(--ifm-announcementBar-height) + 12px);
+  }
+
+  .navbar__items .documate-button {
+    display: none !important;
+  }
+
+  .navbar__link {
     display: none !important;
   }
 }
@@ -200,15 +204,6 @@ footer[class="footer"] {
   display: flex;
   align-items: center;
   gap: 6px;
-}
-
-.navbar__link {
-  display: flex;
-  align-items: center;
-
-  @media (max-width: 768px) {
-    display: none !important;
-  }
 }
 
 .code-block-highlight-line {
