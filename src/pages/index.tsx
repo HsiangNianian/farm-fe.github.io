@@ -6,7 +6,7 @@ import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
 import Benchmark from "../components/Benchmark";
-// import AnimatedGradientStarWithGithub from "../components/MagicUi/animated-shiny-text";
+import AnimatedGradientStarWithGithub from "../components/MagicUi/animated-shiny-text";
 import BlurFade from "../components/MagicUi/blur-fade";
 import BentoGridCard from "../components/MagicUi/card";
 import StarrySky from "../components/StarrySky";
@@ -105,7 +105,7 @@ const HomeBaseContent = () => {
   const mainContent = React.useMemo(() => {
     return (
       <main className="mb-20 my-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8max-w-6xl">
-{/*         <AnimatedGradientStarWithGithub /> */}
+        <AnimatedGradientStarWithGithub />
         <HomepageHeader />
         <BentoGridCard />
       </main>
