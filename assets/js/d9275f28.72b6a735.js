@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfarm_docs=self.webpackChunkfarm_docs||[]).push([[3412],{1359:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/farm-fe.github.io/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
